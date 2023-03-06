@@ -1,4 +1,4 @@
-import { useDarkModeContext } from "../context/darkModeContext";
+import { useDarkModeContext } from "../context/DarkModeContext";
 
 const DarkModeButton = () => {
 
