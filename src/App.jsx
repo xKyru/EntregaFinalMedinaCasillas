@@ -14,8 +14,8 @@ import { ToastContainer } from 'react-toastify';
 
 import { getProducts } from './firebase/firebase';
 
-import { DarkModeProvider } from './context/darkModeContext.jsx';
-import { CartProvider } from './context/CartContext.jsx';
+import { DarkModeProvider } from './context/darkModeContext';
+import { CartProvider } from './context/CartContext';
 
 function App() {
 
