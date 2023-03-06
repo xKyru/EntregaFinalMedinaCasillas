@@ -14,12 +14,14 @@ import { ToastContainer } from 'react-toastify';
 
 import { getProducts } from './firebase/firebase';
 
+import { DarkModeProvider } from './context/DarkModeContext';
 import { CartProvider } from './context/CartContext';
 
 function App() {
 
   return (
     <>
+      <DarkModeProvider>
         <CartProvider>
           <BrowserRouter>
             <div className="site-header section">
@@ -79,6 +81,7 @@ function App() {
             />
           </BrowserRouter>
         </CartProvider>
+      </DarkModeProvider>
     </>
   )
 }
