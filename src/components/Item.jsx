@@ -14,7 +14,10 @@ const Item = ({item}) => {
                 <h3>{name}</h3>
                 <p className="product-price">{formatPrice(price)}</p>
                 <p className="product-description">{shortDesc}</p>
-                <Link to={stock === 0 ? "/" : `/item/${id}`} className="product-btn"><span>Ver más</span></Link>
+                {
+                    stock > 0 && <Link to={`/item/${id}`} className="product-btn"><span>Ver más</span></Link>
+                }
+
             </div>
         </li>
     </>
