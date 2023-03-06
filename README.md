@@ -21,6 +21,8 @@ _Ejecutar el proyecto en consola con el siguiente comando:_
 
 ```npm run dev```
 
+_Abrir en el navegador la URL que se muestra en consola_
+
 ## ⛏️ Creado con
 
 - [React](https://reactjs.org) - JavaScript Framework
